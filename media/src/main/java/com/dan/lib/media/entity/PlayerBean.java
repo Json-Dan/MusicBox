@@ -1,5 +1,7 @@
 package com.dan.lib.media.entity;
 
+import java.util.List;
+
 public class PlayerBean {
     //资源
     private String resources;
@@ -29,5 +31,13 @@ public class PlayerBean {
 
     public void setResources(String resources) {
         this.resources = resources;
+    }
+
+    @Override
+    public String toString() {
+        return "PlayerBean{" +
+                "resources='" + resources + '\'' +
+                ", bg='" + bg + '\'' +
+                '}';
     }
 }
